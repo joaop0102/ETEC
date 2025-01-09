@@ -1,0 +1,9 @@
+.estiloTest{
+    border: red solid 1px;
+    font-size: 12px;
+    padding: 0px 1px 0px 5px;
+    margin: 0px 120px;
+}
+.styleFundo{
+    background-color: #007bff;
+}

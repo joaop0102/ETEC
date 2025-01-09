@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Farro';
+}
+
+a{
+text-decoration: none;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+.accordion-item{
+    background-size: cover;
+    color: white;
+}
+
+p{
+    box-shadow: 5px 5px 10px red;
+    border-radius: 10px;
+    background: rgba(22, 22, 22, 0.712);
+}   
+
+.img{
+    margin: 10px;
+    justify-items: center;
+}
+
+nav{
+    background: rgba(12, 16, 233, 0.267);
+}
+
+body{
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+footer{
+    background-image: linear-gradient( to right, rgba(255, 0, 0, 0.26), transparent, rgba(0, 0, 255, 0.301) ); 
+}
+
+.nav-im{
+    background: rgba(12, 16, 233, 0.267);
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.fundo{
+        background-color: black;
+    background-image: linear-gradient( to right, rgba(90, 88, 88, 0.568), transparent, rgba(223, 223, 223, 0.281) ); 
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.not{
+    text-align: left;
+}
+
+.card {
+    position: relative;
+    transition: z-index 0.3s ease;
+    background-color: rgba(144, 144, 218, 0.452);
+  }
+  
+  .card:hover {
+    z-index: 1;
+    box-shadow: 0px 0px 90px rgba(4, 99, 207, 0.5);
+  }
+
+.card2:hover{
+    z-index: 1;
+    box-shadow: 0px 0px 90px rgba(207, 4, 4, 0.5);
+}
+
+h1{
+    margin: 10px;
+}
+
+.ajuste{
+    background-color: whitesmoke;
+}
+
+.ajuste2{
+    color: white;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+ul{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.liFechado{
+    background-color: rgb(136, 41, 41);
+    border-radius: 10px;
+}
+
+ul{
+    background-color: whitesmoke;
+    margin-right: 6px;
+}
+
+.fundoStyle{
+    background-color: whitesmoke; 
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.carde{ 
+    border-radius: 10px;
+    margin: 10px; 
+}
+
+input{
+    font-size: 25px;
+    border-radius: 5px;
+    position: relative;
+    transition: z-index 0.3s ease;
+}
+
+input:hover{
+    box-shadow: 0px 0px 10px blue;
+}
+
+form{
+    margin: 15px;
+    border-radius: 10px;
+    background-color: rgba(49, 68, 110, 0.685);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.form-check{
+    margin: 10px;
+    margin-left: 50px;
+}

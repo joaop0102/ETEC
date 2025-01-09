@@ -1,0 +1,58 @@
+<html>
+<head>
+<meta http-equiv="Content Type" content="text/html; charset=uf-8"/>
+<title>Calculator</title>
+</head>
+<body>
+    <input type="text" id="visor" size="12"class="visor"/>
+    <br/><br/>
+    <input type="submit"class="botão" value="1" onclick="preencher(1);"/>
+    <input type="submit"class="botão" value="2" onclick="preencher(2);"/>
+    <input type="submit"class="botão" value="3" onclick="preencher(3);"/>
+    <input type="submit"class="botão" value="/" onclick="preencher('/');"/>
+    <br/><br/>
+    <input type="submit"class="botão" value="4" onclick="preencher(4);"/>
+    <input type="submit"class="botão" value="5" onclick="preencher(5);"/>
+    <input type="submit"class="botão" value="6" onclick="preencher(6);"/>
+    <input type="submit"class="botão" value="*" onclick="preencher('*');"/>
+    <br/><br/>
+    <input type="submit"class="botão" value="7" onclick="preencher(7);"/>
+    <input type="submit"class="botão" value="8" onclick="preencher(8);"/>
+    <input type="submit"class="botão" value="9" onclick="preencher(9);"/>
+    <input type="submit"class="botão" value="-" onclick="preencher('-');"/>
+    <br/><br/>
+    <input type="submit"class="botão" value="0" onclick="preencher(0);"/>
+    <input type="submit"class="botão" value="c" onclick="limpar();"/>
+    <input type="submit"class="botão" value="=" onclick="calcular();"/>
+    <input type="submit"class="botão" value="+" onclick="preencher('+');"/>
+    <style type="text/css">
+        .botão{
+    width: 48px;
+    height: 48px;
+    background-color: black;
+    color: red;
+
+}
+   .visor{
+     font-size: 1.5em;
+     color: black;
+     background-color: rgb(255, 0, 0);
+   }
+    </style>
+    <script type="text/javascript">
+        function limpar(){
+        document.getElementById('visor').value='';
+    }
+    function preencher(valor){
+        document.getElementById('visor').value +=valor;
+    }
+    function calcular(){
+        var resultado =0;
+        resultado = document.getElementById('visor').value;
+        document.getElementById('visor').value='';
+        document.getElementById('visor').value=eval(resultado);
+    }
+    </script>
+
+</body>
+</html>

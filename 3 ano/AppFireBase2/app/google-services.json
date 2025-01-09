@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "554411398711",
+    "project_id": "apppamfirebase",
+    "storage_bucket": "apppamfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554411398711:android:87d4a5070aa698cdbf11b2",
+        "android_client_info": {
+          "package_name": "com.example.appfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdC-VTJiqMDPViUXw8QHIIvljLtHTtUHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
